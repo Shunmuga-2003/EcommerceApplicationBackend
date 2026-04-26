@@ -1,0 +1,7 @@
+// These methods are FREE — JpaRepository gives them automatically
+findAll()          → SELECT * FROM table
+findById(id)       → SELECT * FROM table WHERE id = ?
+save(entity)       → INSERT or UPDATE
+deleteById(id)     → DELETE FROM table WHERE id = ?
+existsById(id)     → SELECT count(*) FROM table WHERE id = ?
+count()            → SELECT count(*) FROM table
